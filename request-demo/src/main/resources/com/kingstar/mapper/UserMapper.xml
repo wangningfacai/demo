@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kingstar.mapper.UserMapper">
+    <!--
+        数据库表的字段名称   和   实体类的属性名称  不同，则不能自动封装数据
+            解决方法：1.起别名：在sql中使用as给字段起别名（可以使用sql片段解决重复起别名的缺点）
+                    2.使用resultMap
+
+            resultMap:
+            1.定义<resultMap>标签
+                id:完成主键字段的映射
+                type:映射的类型，支持别名
+            2.在<select>标签中，使用resultMap属性替换 resultType属性
+    -->
+</mapper>

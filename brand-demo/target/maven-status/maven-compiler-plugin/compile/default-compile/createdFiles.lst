@@ -1,0 +1,7 @@
+com\kingstar\mapper\BrandMapper.class
+com\kingstar\web\SelectAllServlet.class
+com\kingstar\pojo\Brand.class
+com\kingstar\web\AddServlet.class
+com\kingstar\util\SqlSessionFactoryUtils.class
+com\kingstar\service\BrandService.class
+com\kingstar\web\SelectByIdServlet.class
